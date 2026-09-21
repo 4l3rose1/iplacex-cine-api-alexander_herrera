@@ -1,6 +1,4 @@
-FROM node:20-alpine
-
-ENV NODE_OPTIONS="--tls-cipher-list=PROFILE=DEFAULT"
+FROM node:18-alpine
 
 WORKDIR /app
 
